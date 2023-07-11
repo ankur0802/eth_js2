@@ -113,14 +113,14 @@ const contractInteraction = async()=>{
     // console.log(contractname);
 
     const num = await myContracts.getValue()
-    // console.log(num);
+    console.log(num);
 
     const contractBalance = await myContracts.contractBalance()
-    // console.log(contractBalance);
+    console.log(contractBalance);
 
 
     const accountBalance = await myContracts.accountBalance('0x09B4D73D7f9b4350638C7ebA63DA42cdA7a78b34')
-    console.log(accountBalance);
+    // console.log(accountBalance);
 
 }
 

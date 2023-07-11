@@ -10,6 +10,6 @@
   "author": "ankur",
   "license": "ISC",
   "dependencies": {
-    "ethers": "^6.6.2"
+     "ethers": "^6.6.2"
   }
 }
